@@ -1,0 +1,29 @@
+
+.t_bloc_1 h3 {
+color: #fff;
+}
+.t_bloc_hover h3{
+color: transparent;
+}
+.t_bloc_1 p {
+color: transparent;
+position:absolute;width:210px;height:150px;padding:20px 5px 0px 5px;
+-webkit-transition: text-shadow 400ms ease-in-out;
+-moz-transition: text-shadow 400ms ease-in-out;
+-o-transition: text-shadow 400ms ease-in-out;
+-ms-transition: text-shadow 400ms ease-in-out;
+transition: text-shadow 400ms ease-in-out;
+}
+.t_bloc_hover p{
+
+color: #fff;
+-webkit-transition: text-shadow 400ms ease-in-out;
+-moz-transition: text-shadow 400ms ease-in-out;
+-o-transition: text-shadow 400ms ease-in-out;
+-ms-transition: text-shadow 400ms ease-in-out;
+transition: text-shadow 400ms ease-in-out;
+}
+
+.t_bloc_1 a:hover, .t_bloc_1 a:focus, .t_bloc_1 a:active {
+color: #ffffff;text-shadow: 0px 0px 1px #fff;
+}
